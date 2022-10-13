@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="blog.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    </head>
+
+    <body>
+        <div>
+            <nav>
+                <div class="nav-left">
+                    <ul>
+                        <li><a href="index.html"><img src="./logoo.png" alt=""></a></li>
+                        <li class="home"><a href="index.html">Home</a></li>
+                        <li class="myProject">My Project</li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <a href="contact.html">Contact Me</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="addProject">
+            <form>
+                <h1>ADD MY PROJECT</h1>
+                <div>
+                    <label for="input-project-name">Project Name</label>
+                    <input type="text" id="input-name">
+                </div>
+                <div class="date">
+                    <div>
+                    <label for="input-start-date">Start Date</label> 
+                    <input type="text" id="start-date"  >
+                    </div>
+                    <div>
+                        <label for="input-end-date">End Date</label> 
+                        <input type="text" id="input-date" >
+                    </div>
+                </div>
+                
+                <div>
+                    <label for="input-message">Your Message</label>
+                    <textarea name="" id="input-message" cols="60" rows="5"></textarea>
+                </div>
+                <div class="technologies">
+                    <label for="input-techmologies">Technologies</label><br>
+                    <input type="checkbox" nama="teknologi 1"  value="Node JS"> Node JS
+                    <input type="checkbox" nama="teknologi 2"  value="React JS"> React JS <br>  
+                    <input type="checkbox" nama="teknologi 3"  value="Next JS"> Next JS
+                    <input type="checkbox" nama="teknologi 4"  value="Typescript"> Typescript
+                </div>
+                <div>
+                    <label for="iput-image">Upload Image</label>
+                    <input type="file">
+                </div>
+                <div class="tombol">
+                    <button type="button">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <h1>My Project</h1>
+        <div class="card">
+            <div class="card-image">
+                <img src="./profil.jpg" alt="">
+            </div>
+            <div class="card-content">
+                <div>
+                    <h3>
+                        <a href="cardDetail.html" style="color:black ;" target="_blank">
+                            Web Progammer merupak profesi benefit di masa depan
+                        </a>
+                    </h3>
+                </div>
+                <div class="card-detail-content">
+                    12 juil 2022 22:30 WIB | Ichsan Nur Jamal
+                </div>
+
+                <div class="card-desc">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nam provident porro. Recusandae ab veniam dolores? Eum, similique natus delectus debitis incidunt animi fugit magnam, nulla atque quos at id.</p>
+                </div>
+
+                <div class="os">
+                    <i class="fa solid fa-mobile"></i>
+                    <i class="fa brands fa-android"></i>
+                    <i class="fa brands fa-apple"></i>
+                </div>
+
+                <div class="btn-group">
+                    <button class="btn-edit"> Edit Post</button>
+                    <button class="btn-post"> Post Blog</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
